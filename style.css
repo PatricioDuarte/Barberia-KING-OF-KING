@@ -1,0 +1,180 @@
+.logo {
+    width: 90px;
+}
+
+.image-fondo {
+    background-image: url("./img/barber-3.jpg");
+    background-size: cover;
+}
+.cabecera{
+  color: #fff;
+  height: 550px;
+  line-height: 550px;
+  text-align: center;
+  vertical-align: middle;
+  text-shadow: #111 0px 0px 10px;
+}
+
+.empleados {
+  display: flex;
+  height: 100%;
+
+}
+.card {
+  height: 500px;
+  width: 500px;
+  display: inline-block;
+  text-align: center;
+}
+.titulo {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  background: rgb(148, 126, 126);
+}
+
+/*IMAGEN FONDO*/
+.carousel-inner {
+  height: 600px;
+}
+
+@media (max-width: 767px) {
+  .carousel-inner {
+    height: 300px;
+  }
+
+}
+
+#galeria .col-lg-4 {
+  margin: 0 !important;
+  padding: 25px;
+
+}
+
+#galeria img {
+  width: 100%;
+  height: 250px;
+}
+
+#galeria img:hover {
+  border: 5px solid white;
+}
+
+/*NOSOTROS*/
+
+.nosotros {
+  padding-bottom: 75px;
+  padding-top: 75px;
+}
+
+.nostros img {
+  width: 400px;
+}
+
+.nostros .row {
+  display: flex;
+  align-items: center;
+}
+
+h1, h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  background: rgb(148, 126, 126);
+
+}
+
+@media (max-width: 767px) {
+    .nostros img {
+      width: 300px;
+    }
+
+    .nostros {
+      padding-bottom: 45px;
+      padding-top: 45px;
+      }
+      
+    .nostros .presentacion {
+      text-align: center;
+    }
+}
+
+/*SERVICIOS*/
+
+.cont123 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.card-servi {
+  width: 250px;
+  text-align: center;
+
+}
+
+.imagen123 {
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.texto {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .cont123 {
+      flex-wrap: wrap;
+    }
+    
+}
+
+/*Empleados*/
+
+.empleados {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.card {
+  width: 350px;
+  text-align: center;
+  
+}
+
+.foto {
+  width: 300px;
+  height: 300px;
+  margin-top: 30px;
+  text-align: center;
+  margin: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .empleados {
+      flex-wrap: wrap;
+    }
+  }
+
+  /*Lista de precios*/
+
+  .list-group {
+    margin: 10px;
+    margin-top: 30px;
+  }
+
+  .badge {
+    width: 250px;
+    height: 50px;
+  }
+
+  .precios {
+    height: 50px;
+  }
+
+  h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
